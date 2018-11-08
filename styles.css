@@ -1,0 +1,230 @@
+/* Whole Body Stuff */
+@import url("https://fonts.googleapis.com/css?family=Lobster|Roboto+Condensed");
+
+html,
+body {
+  color: #000;
+  font-size: 1rem;
+  font-family: "Roboto Condensed", Helvetica, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Specific Stuff */
+
+nav {
+  background-color: white;
+}
+
+#hero {
+  position: relative;
+  margin: 0 auto;
+}
+
+#header-img {
+-webkit-clip-path: polygon(52% 0, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+clip-path: polygon(52% 0, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  width: 100%;
+}
+
+.headText {
+  position: absolute;
+  top: 15vw;
+  left: 40vw;
+}
+
+.headText h1 {
+  font-family: "Lobster";
+  text-shadow: 5px 5px rgb(208, 120, 42);
+  color: white;
+  font-size: 4rem;
+}
+
+.headText h6, h3 {
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.headRight {
+  width: 100%;
+}
+
+#email {
+  padding: .75em;
+  border: none;
+  border-radius: 5px;
+  font-size: .8rem;
+}
+
+.btn {
+  text-align: center;
+  background-color: #fffacd;
+}
+
+/* -- */
+
+.main {
+  width: 100%;
+  padding: 2em;
+}
+
+.heading {
+  text-align: center;
+}
+
+iframe {
+  padding: 1em;
+}
+
+.text {
+  padding-top: 1em;
+}
+
+/* -- */
+
+.features {
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#featureImg {
+ -webkit-clip-path: polygon(50% 25%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+clip-path: polygon(50% 25%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
+  width: 100%;
+}
+
+
+.featureText h1 {
+  font-family: "Lobster";
+  text-shadow: 5px 5px rgb(208, 120, 42);
+  color: white;
+  font-size: 4rem;
+}
+
+.featureText {
+   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  
+}
+
+.featuresPara {
+  padding: 2em;
+  padding-top: 3em;
+}
+
+.featuresPara h3 {
+  text-align: center;
+}
+
+.featuresPara p {
+  text-align: justify;
+  padding: 1em;
+    background-color: #FFFACD;
+}
+
+.icons {
+  max-width: 50%;
+  padding: 1em;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.downloadIcons {
+  font-size: 5em;
+  text-align: center;
+  padding: 1em;
+}
+
+.fa-app-store {
+  color: #3BB9FF;
+}
+
+.fa-google-play {
+  color: #FF2400;
+}
+
+.fa-microsoft {
+  color: #000;
+}
+
+#contactForm {
+  display: flex;
+  justify-content: center;
+  padding: 2em;
+  max-width: 50%;
+  margin: 3em auto;
+  background-color: #eee;
+  border-radius: 1em;
+}
+
+.form-group {
+  display: flex;
+  justify-content: center;
+}
+
+#contactForm h4 {
+  font-size: 1em;
+  text-align: justify;
+}
+
+input, textarea {
+  padding: .5em;
+  border-radius:.5em;
+  border: none;
+}
+
+.foot {
+  background-color: #eee;
+  text-align: center;
+  padding: 2em;
+}
+
+
+
+/* Media Queries */
+/* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+      .headText {
+  position: absolute;
+  top: 2vw;
+  left: 6vw;
+}
+
+
+    }
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      
+      .headText {
+  position: absolute;
+  top: 15vw;
+  left: 25vw;
+}
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
